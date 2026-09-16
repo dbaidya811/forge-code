@@ -1,0 +1,43 @@
+{
+  "name": "forge-code",
+  "version": "1.0.0",
+  "description": "Autonomous OpenRouter-driven terminal coding agent",
+  "type": "module",
+  "bin": {
+    "forge": "./dist/bin/index.js"
+  },
+  "scripts": {
+    "dev": "node --import tsx bin/index.ts",
+    "build": "tsc",
+    "start": "node dist/bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "ai-agent",
+    "openrouter",
+    "claude-code"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "@inquirer/prompts": "^8.7.2",
+    "boxen": "^8.0.1",
+    "chalk": "^6.0.0",
+    "commander": "^15.0.0",
+    "conf": "^15.1.0",
+    "dotenv": "^17.4.2",
+    "execa": "^10.0.1",
+    "figlet": "^1.11.4",
+    "open": "^11.0.4",
+    "openai": "^7.15.0",
+    "ora": "^9.4.1",
+    "unicorn-magic": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
