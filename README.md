@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="public/image.png" alt="Forge Code Preview" width="100%" />
-</p>
-
 <h1 align="center">FORGE CODE</h1>
 
 <p align="center">
@@ -56,6 +52,9 @@
     Securely stores API keys locally using cross-platform configuration storage (<code>Conf</code>), eliminating the need to set keys repeatedly.
   </li>
 </ul>
+<p align="center">
+  <img src="public/image.png" alt="Forge Code Preview" width="100%" />
+</p>
 
 <hr />
 
