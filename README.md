@@ -52,10 +52,6 @@
     Securely stores API keys locally using cross-platform configuration storage (<code>Conf</code>), eliminating the need to set keys repeatedly.
   </li>
 </ul>
-<p align="center">
-  <img src="public/image.png" alt="Forge Code Preview" width="100%" />
-</p>
-
 <hr />
 
 <h2>System Architecture</h2>
